@@ -58,6 +58,7 @@ def two_sum_hashed2(lst,target):
     return result
 ```
 ---
+[Смотри lab1]
 
 # Лабараторная работа №2
 ## Бинарное дерево
@@ -77,4 +78,4 @@ def gen_bin_tree(root,height)->dict:
         left_leaf,right_leaf = root**2,2+root**2 #Создание "листьев"
         return {f"{root}":[gen_bin_tree(left_leaf,height),gen_bin_tree(right_leaf,height)]}
   ```
-"Смотри lab2"
+[Смотри lab2]
