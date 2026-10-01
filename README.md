@@ -16,3 +16,4 @@ def gen_bin_tree(root,height)->dict:
         left_leaf,right_leaf = root**2,2+root**2 #Создание "листьев"
         return {f"{root}":[gen_bin_tree(left_leaf,height),gen_bin_tree(right_leaf,height)]}
   ```
+"Смотри lab2"
